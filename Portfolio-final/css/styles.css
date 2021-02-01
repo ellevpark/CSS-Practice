@@ -6,7 +6,7 @@ body {
   background-color: #b8c6db;
   background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);  margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -17,19 +17,20 @@ h1 {
 }
 
 h2 {
-  color: #00000081;
+  color: #000000b0;
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
+  margin-bottom: 1em;
   font-weight: normal;
 }
 
 h3 {
-  color: #00000081;
+  color: #000000b0;
   font-family: 'Montserrat', sans-serif;
 }
 
 h4 {
-  color: #00000081;
+  color: #000000b0;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -42,17 +43,6 @@ hr {
   border-bottom: none;
   width: 4%;
   margin: 50px auto
-}
-
-a{
-  color: #00000081;
-  font-family: 'Montserrat', sans-serif;
-  margin: 10px 20px;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #EAF6F6;
 }
 
 .top-container {
@@ -84,22 +74,22 @@ a:hover {
   margin-right: 10px;
 }
 
-
 .list-group-item {
   background-color: rgba(187, 187, 221, 0.151);
   text-align:justify;
   padding-left: 7em;
   letter-spacing: 2px;
-
 }
 
+.list-group-item:hover {
+  color: rgb(163, 194, 221);
+}
 
 .footer {
   padding: 50px 0 20px;
   background-size: cover;
 
 }
-
 
 .color-box {
   width: 50%;
@@ -114,20 +104,11 @@ a:hover {
   text-decoration: underline;
 }
 
-.intro {
-  width: 30%;
-  margin: auto;
-}
-
-.contact-message {
-  width: 40%;
-  margin: 40px auto 60px;
-}
-
 .copyright {
-  color: #EAF6F6;
+  color: #ffffff;
   font-size: 0.75rem;
   padding: 20px 0;
+
 }
 
 
@@ -140,19 +121,33 @@ a:hover {
 
 
 .btn {
-  background: #879fa0;
+  background-color: #bdd4e7;
+  background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
   border-radius: 8px;
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 .btn:hover {
-  background-color: #d9e4f5;
-  background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%); 
+  background-color: #b8c6db;
+  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
   text-decoration: none;
+}
+
+a{
+  color: #000000b0;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(163, 194, 221);
 }
 
 
